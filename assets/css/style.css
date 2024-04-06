@@ -1,0 +1,11 @@
+@media (min-width: 820px){
+.game-tiles._active .game-tile:not(._active):hover {
+    background-image: linear-gradient(320.64deg, #17191c -42.09%, #444b51 167.71%);
+    box-shadow: -4px -3px 11px rgba(10,9,9,.2), 7px 7px 11px rgba(10,9,9,.25);
+}}
+.game-tile._win {
+    background-image: radial-gradient(33.95% 33.95% at -8.16% 104.08%, rgba(148, 226, 251, .37) 5.7%, rgba(33, 38, 42, 0) 100%), radial-gradient(33.68% 33.68% at 113.68% 107.89%, rgba(148, 226, 251, .37) 0%, rgba(33, 38, 42, 0) 100%), radial-gradient(62.12% 48.25% at 49.48% -8.25%, #5cd9f5 0%, rgba(38, 42, 46, 0) 100%), linear-gradient(129.86deg, #242526 -1.52%, rgba(29, 33, 36, .21) 107.51%);
+}
+.text{
+    height: 18px;
+}
