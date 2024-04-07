@@ -860,9 +860,9 @@ document.getElementsByClassName("game-header__button")[1].addEventListener('clic
                     }
                 }
             }
-            // setTimeout(function () {
-            //     location.reload()
-            // }, 1500)
+            setTimeout(function () {
+                location.reload()
+            }, 2000)
             document.getElementsByClassName("table-holder")[0].innerHTML += `
             <div class="win-screen">
             <div class="win-screen__head">Sən qalibsən!</div>
